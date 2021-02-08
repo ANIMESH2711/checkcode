@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Check Code</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -12,6 +12,7 @@
     .navbar {
       margin-bottom: 0;
       border-radius: 0;
+      background-color: #5d5656;
     }
     
     /* Add a gray background color and some padding to the footer */
@@ -44,17 +45,18 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">Logo</a>
+      <!-- <a class="navbar-brand" href="#">Logo</a> -->
+      <a class="navbar-brand" href="#"></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
+        <li class="active"><a href="http://rhino-pharma.com/">Home</a></li>
         <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
+        <!-- <li><a href="#">Projects</a></li> -->
         <li><a href="#">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <!-- <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li> -->
       </ul>
     </div>
   </div>
@@ -87,18 +89,20 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="https://placehold.it/1200x400?text=IMAGE" alt="Image">
+        <!-- <img src="https://placehold.it/1200x400?text=IMAGE" alt="Image"> -->
+        <img src="http://rhino-pharma.com/img/11.jpg" style="width:90%;height:350px"  alt="Image">
         <div class="carousel-caption">
-          <h3>Sell $</h3>
-          <p>Money Money.</p>
+          <h3>Make Your Health</h3>
+          <!-- <p>Money Money.</p> -->
         </div>      
       </div>
 
       <div class="item">
-        <img src="https://placehold.it/1200x400?text=Another Image Maybe" alt="Image">
+        <!-- <img src="https://placehold.it/1200x400?text=Another Image Maybe" alt="Image"> -->
+        <img src="http://rhino-pharma.com/img/12.jpg" style="width:90%;height:350px"  alt="Image">
         <div class="carousel-caption">
-          <h3>More Sell $</h3>
-          <p>Lorem ipsum...</p>
+          <h3>Fit Your Figure</h3>
+          <!-- <p>Lorem ipsum...</p> -->
         </div>      
       </div>
     </div>
@@ -115,7 +119,7 @@
 </div>
   
 <div class="container text-center" >    
-  <h3>Confirm Your Coupon Code Here</h3><br>
+  <h3 style="text-decoration:underline"><b>Confirm Your Coupon Code Here</b></h3><br>
   <div class="row">
     <div class="col-sm-6" style="background-color:grey"> 
       <!-- <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
@@ -148,8 +152,12 @@
 </form> 
     </div>
     <div class="col-sm-6" style="text-align:left"> 
-      <!-- <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"> -->
-      <li><b>1. If authentication codes are checked more than once then the product is fake.</b></li>   
+    <div class="col-sm-6" style="text-align:left"> 
+      <img src="http://rhino-pharma.com/img/1.jfif" class="img-responsive" style="width:;height:270px"  alt="Image">
+      </div><div class="col-sm-6" style="text-align:left"> 
+      <img src="http://rhino-pharma.com/img/2.jfif" class="img-responsive" style="width:;height:270px"  alt="Image">
+     </div>
+      <!-- <li><b>1. If authentication codes are checked more than once then the product is fake.</b></li>   
       <li><b>2. Meditechpharmaceutical.net is the only legit site. Fake website and social media include the following:</b></li>   
       <li><b>FAKE Website:</b></li>   
       <li><b>Meditech-pharmaceutical.net</b></li>   
@@ -168,7 +176,7 @@
       <li><b>steroid_king_</b></li>   
       <li><b>meditech_bn</b></li>   
       <li><b>meditech_bodyengineers</b></li>   
-      <li><b>meditech_steroids.china             </b></li>    
+      <li><b>meditech_steroids.china             </b></li>     -->
     </div>
     <!-- <div class="col-sm-4">
       <div class="well">
@@ -182,7 +190,7 @@
 </div><br>
 
 <footer class="container-fluid text-center">
-  <p>Footer Text</p>
+  <p>Rhino - Pharma</p>
 </footer>
 
 </body>
