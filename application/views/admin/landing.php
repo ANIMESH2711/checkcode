@@ -78,7 +78,7 @@
     <div class="alert alert-danger"> <?= $this->session->flashdata('category_error') ?> </div>
 <?php }  ?>
 
-<?php unset($_SESSION['category_success1']);unset($_SESSION['category_error1']);unset($_SESSION['category_error']); ?>
+<!-- <?php //unset($_SESSION['category_success1']);unset($_SESSION['category_error1']);unset($_SESSION['category_error']); ?> -->
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
