@@ -5,8 +5,6 @@
 application/cache/*
 !application/cache/index.html
 
-!application\config\config.php
-!application\config\database.php
 application/logs/*
 application/config/*
 !application/logs/index.html
